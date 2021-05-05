@@ -125,7 +125,6 @@ contract CakeToken is BEP20('PancakeSwap Token', 'Cake') {
      */
     function getCurrentVotes(address account)
         external
-        view
         returns (uint256)
     {
         uint32 nCheckpoints = numCheckpoints[account];
