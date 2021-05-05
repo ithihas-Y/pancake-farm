@@ -1,4 +1,5 @@
 const { assert } = require("chai");
+const mocha = require('mocha);
 
 const CakeToken = artifacts.require('CakeToken');
 
